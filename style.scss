@@ -1,0 +1,419 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$text-color: "";
+$bg-Color: rgb(190, 65, 65);
+
+.container-fluid {
+    border-radius: 8px;
+    background-image: url(./Kerakli/4.webp);
+    background-size: 100%;
+
+    .just1 {
+        padding-left: 40%;
+        color: white;
+
+        .a {
+            color: white;
+        }
+
+        .button1 {
+            width: 100px;
+            color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0);
+        }
+    }
+
+    .h1 {
+        color: white;
+        font-size: 40px;
+        font-weight: 500;
+    }
+}
+
+.tell {
+    border-radius: 8px;
+    background-image: url(./Kerakli/slider/4.webp);
+    background-size: 100%;
+
+    .just2 {
+        padding-top: 15%;
+    }
+
+    .h2 {
+        color: white;
+    }
+
+    .p1 {
+        color: white;
+    }
+
+    .button2 {
+
+        border: 2px solid $bg-Color;
+        width: 100px;
+        color: white;
+        background-color: $bg-Color;
+        margin-bottom: 60px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.con1 {
+    background-color: rgb(209, 208, 208);
+    margin-top: 50px;
+
+    .p2 {
+        color: rgb(159, 153, 153);
+    }
+}
+
+.con2 {
+    margin-top: 100px;
+
+    .button3 {
+
+        border: 2px solid $bg-Color;
+        width: 170px;
+        color: white;
+        background-color: $bg-Color;
+        margin-bottom: 60px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.con3 {
+
+    .h3 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+
+.con4 {
+    padding-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+    .box1 {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: black;
+        background-color: white;
+        width: 280px;
+        transition-duration: 1s;
+        overflow: hidden;
+        position: relative;
+
+        .ubox {
+            transform: translateY(200%);
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 0, 0, 0.0);
+            position: absolute;
+        }
+
+        &:hover {
+            transform: translateY(0%);
+            background-color: red;
+        }
+
+    }
+
+    .box2 {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: black;
+        background-color: white;
+        width: 280px;
+        transition-duration: 1s;
+        overflow: hidden;
+        position: relative;
+
+        .ubox {
+            transform: translateY(200%);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+
+        &:hover {
+            transform: translateY(0%);
+            background-color: red;
+        }
+
+    }
+
+    .box3 {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: black;
+        background-color: white;
+        width: 280px;
+        transition-duration: 1s;
+        overflow: hidden;
+        position: relative;
+
+        .ubox {
+            transform: translateY(200%);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+
+        &:hover {
+            transform: translateY(0%);
+            background-color: red;
+        }
+
+    }
+
+    .box4 {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: black;
+        background-color: white;
+        width: 280px;
+        transition-duration: 1s;
+        overflow: hidden;
+        position: relative;
+
+        .ubox {
+            transform: translateY(200%);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+
+        &:hover {
+            transform: translateY(0%);
+            background-color: red;
+        }
+
+    }
+
+    .box5 {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: black;
+        background-color: white;
+        width: 280px;
+        transition-duration: 1s;
+        overflow: hidden;
+        position: relative;
+
+        .ubox {
+            transform: translateY(200%);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+
+        &:hover {
+            transform: translateY(0%);
+            background-color: red;
+        }
+
+    }
+
+    .box6 {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        border-radius: 10px;
+        color: black;
+        background-color: white;
+        width: 280px;
+        transition-duration: 1s;
+        overflow: hidden;
+        position: relative;
+
+        .ubox {
+            transform: translateY(100%);
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+
+        &:hover {
+            transform: translateY(0%);
+            background-color: red;
+        }
+
+    }
+}
+
+.con5 {
+    padding-left: 8%;
+
+    .box7 {
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 300px;
+        height: 400px;
+        border: 1px solid rgba(0, 0, 0, 0.468);
+        color: black;
+        transition-duration: 1s;
+
+        .h4 {
+            font-size: 50px;
+        }
+
+        .button4 {
+            margin-top: 70px;
+            margin-left: 15%;
+            border: 2px solid rgba(255, 255, 255, 0.163);
+            color: black;
+            width: 210px;
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        &:hover {
+            color: white;
+            background-color: rgb(192, 46, 46);
+        }
+    }
+
+    .box8 {
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 300px;
+        height: 400px;
+        border: 1px solid rgba(0, 0, 0, 0.468);
+        color: black;
+        transition-duration: 1s;
+
+        .h4 {
+            font-size: 50px;
+        }
+
+        .button4 {
+            margin-top: 70px;
+            margin-left: 15%;
+            border: 2px solid rgba(255, 255, 255, 0.163);
+            color: black;
+            width: 210px;
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        &:hover {
+            color: white;
+            background-color: rgb(192, 46, 46);
+        }
+    }
+
+    .box9 {
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 300px;
+        height: 400px;
+        border: 1px solid rgba(0, 0, 0, 0.468);
+        color: black;
+        transition-duration: 1s;
+
+        .h4 {
+            font-size: 50px;
+        }
+
+        .button4 {
+            margin-top: 70px;
+            margin-left: 15%;
+            border: 2px solid rgba(255, 255, 255, 0.163);
+            color: black;
+            width: 210px;
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        &:hover {
+            color: white;
+            background-color: rgb(192, 46, 46);
+        }
+    }
+}
+
+.con6 {
+    img {
+        width: 100%;
+    }
+}
+
+.con7 {
+    .big-box {
+        padding: 15px 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 400px;
+        height: 400px;
+        border: 2px solid rgba(81, 81, 81, 0.463);
+
+        .button5 {
+            width: 210px;
+            margin-top: 35%;
+            margin-left: 15%;
+            background-color: red;
+            border: 2px solid red;
+            border-radius: 10px;
+        }
+
+        .input-title {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+    }
+}
+
+.con8{
+    background-image: url(./Kerakli/2.webp);
+    background-size: 100%;
+    padding-left: 10%;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    .boxs1{
+        width: 250px;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: white;
+    }
+}
